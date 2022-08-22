@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #cc9681;
+  background: #83ffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1563,10 +1563,14 @@ pre .javascript .function {
 .post-body p a {
   color: #0593d3;
   border-bottom: none;
+  text-decoration: underline;
 }
 .post-body p a:hover {
   color: #0477ab;
   text-decoration: underline;
+}
+.live2d-widget-container {
+  left: 0;
 }
 .posts-collapse {
   margin-left: 35px;
