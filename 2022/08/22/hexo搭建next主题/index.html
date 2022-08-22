@@ -318,7 +318,7 @@
 <h4 id="本地有-Git-仓库，并且我们已经进行了多次-commit-操作"><a href="#本地有-Git-仓库，并且我们已经进行了多次-commit-操作" class="headerlink" title="本地有 Git 仓库，并且我们已经进行了多次 commit 操作"></a>本地有 Git 仓库，并且我们已经进行了多次 commit 操作</h4><p>1.建立一个本地仓库进入，init 初始化；<br>2.关联远程仓库；<br>3.同步远程仓库和本地仓库；<br>4.将文件添加提交到本地仓库；<br>5.将本地仓库的内容 push 到远程仓库。</p>
 <h4 id="第一种方法详细步骤"><a href="#第一种方法详细步骤" class="headerlink" title="第一种方法详细步骤"></a>第一种方法详细步骤</h4><p>首先，进入GitHub个人主页：<br>1.点击进入我新建的 text 项目：在 code 标签下点击右侧绿色的Code，选择HTTPS点击链接右侧的复制按钮<br>2.在你需要的文件夹下打开Git Bash 输入 git clone <a target="_blank" rel="noopener" href="https://xxxx(刚刚复制的地址),将远程仓库/">https://xxxx(刚刚复制的地址)，将远程仓库</a> clone 到本地，git status命令查看仓库状态，然后我们使用 git add 命令将文件添加到了「临时缓冲区」，再用 git commit -m “提交信息” 将其提交到本地仓库<br>3.果你是第一次提交的话，会让你输入用户名和邮箱</p>
 <blockquote>
-<p>#你只要再加两行代码就行：<br>$ git config –global user.name”fengye97”<br>$ git config –global user.email”<a href="mailto:&#120;&#120;&#120;&#64;&#120;&#120;&#120;&#x2e;&#99;&#111;&#109;">&#120;&#120;&#120;&#64;&#120;&#120;&#120;&#x2e;&#99;&#111;&#109;</a>“<br>4.完成后输入 git log 命令查看仓库提交日志<br>5.再输入 git status 查看一下仓库状态<br>6.现在输入 git push origin master 命令，将本地仓库提交到远程仓库，origin是远程主机的名字</p>
+<p>#你只要再加两行代码就行：<br>$ git config –global user.name”fengye97”<br>$ git config –global user.email”<a href="mailto:&#120;&#120;&#x78;&#x40;&#120;&#120;&#120;&#46;&#x63;&#x6f;&#109;">&#120;&#120;&#x78;&#x40;&#120;&#120;&#120;&#46;&#x63;&#x6f;&#109;</a>“<br>4.完成后输入 git log 命令查看仓库提交日志<br>5.再输入 git status 查看一下仓库状态<br>6.现在输入 git push origin master 命令，将本地仓库提交到远程仓库，origin是远程主机的名字</p>
 </blockquote>
 <h4 id="第二种方法详细步骤"><a href="#第二种方法详细步骤" class="headerlink" title="第二种方法详细步骤"></a>第二种方法详细步骤</h4><p>1.首先，我们建立一个本地仓库 demo，使用 git init 命令初始化这个仓库</p>
 <p>2.输入 git remote add origin <a target="_blank" rel="noopener" href="https://xxx(远程仓库地址)/">https://xxx(远程仓库地址)</a> 命令，关联远程仓库，接着输入 git pull origin master 命令，同步远程仓库和本地仓库</p>
@@ -484,7 +484,10 @@
     <a href="/2022/08/22/JavaScript%20Array%5B%5D/" rel="prev" title="JavaScript Array[]">
       <i class="fa fa-chevron-left"></i> JavaScript Array[]
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2022/08/22/%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2%E5%88%B0%E5%AF%B9%E5%BA%94%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="next" title="自动化部署前端项目到服务器">
+      自动化部署前端项目到服务器 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -559,20 +562,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -623,12 +626,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">13k</span>
+    <span title="站点总字数">17k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">12 分钟</span>
+    <span title="站点阅读时长">15 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
